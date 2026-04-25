@@ -29,6 +29,10 @@ importers:
       remark-html:
         specifier: ^16.0.1
         version: 16.0.1
+    devDependencies:
+      baseline-browser-mapping:
+        specifier: ^2.10.21
+        version: 2.10.21
 
 packages:
 
@@ -269,6 +273,11 @@ packages:
 
   bail@2.0.2:
     resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}
+
+  baseline-browser-mapping@2.10.21:
+    resolution: {integrity: sha512-Q+rUQ7Uz8AHM7DEaNdwvfFCTq7a43lNTzuS94eiWqwyxfV/wJv+oUivef51T91mmRY4d4A1u9rcSvkeufCVXlA==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
 
   caniuse-lite@1.0.30001759:
     resolution: {integrity: sha512-Pzfx9fOKoKvevQf8oCXoyNRQ5QyxJj+3O0Rqx2V5oxT61KGx8+n6hV/IUyJeifUci2clnmmKVpvtiqRzgiWjSw==}
@@ -741,6 +750,8 @@ snapshots:
       sprintf-js: 1.0.3
 
   bail@2.0.2: {}
+
+  baseline-browser-mapping@2.10.21: {}
 
   caniuse-lite@1.0.30001759: {}
 
