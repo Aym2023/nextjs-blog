@@ -1,10 +1,9 @@
 import { parseISO, format } from "date-fns";
 
-import { parseISO, format } from 'date-fns'
-
 export default function DateComponent({ dateString }) {
+  console.log('dateString received:', dateString)
   if (!dateString) {
-    return <span>No date available</span>
+    return null;
   }
   
   const date = parseISO(dateString)
